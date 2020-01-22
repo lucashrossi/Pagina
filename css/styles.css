@@ -1,0 +1,127 @@
+@charset "UTF-8";
+h2 {
+  color: #5a0000;
+  font-family: 'Times New Roman', Times, serif; }
+  h2.tamañoh2 {
+    font-size: 1vw;
+    font-family: 'Arial';
+   }
+@media screen and (max-width: 480px) {
+  h2.tamañoh2{
+    font-size: 3vw;
+    /* font-size:14px; */
+  }}
+
+.catt {
+    width: 100px;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: 
+        "div1 Catalogo div2"
+        "div1 Catalogo div2"
+        "div1 Catalogo div2";
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 30% auto 30%;
+    grid-template-rows: 100px 100px 100px;
+}
+#div1 {
+    grid-area: div1;
+}
+#div2 {
+    grid-area: div2;
+}
+#Catalogo {
+    grid-area: Catalogo;
+}
+/* div {
+    grid-area: div;
+}
+img {
+    grid-area: img;
+}
+p {
+    grid-area: p;
+} */
+.gridbody {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "section"
+        "footer";
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+header {
+    grid-area: header;
+}
+section {
+    grid-area: section;
+}
+article {
+    grid-area: article;
+}
+footer {
+    grid-area: footer;
+}
+.gridbodya {
+    display: grid;
+    grid-template-areas: 
+        "a nav";
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px;
+}
+a {
+    grid-area: a;
+}
+nav {
+    grid-area: nav;
+}
+.gridsec {
+    display: grid;
+    grid-template-areas: 
+        "div"
+        "article"
+        "cetp";
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px auto auto;
+}
+#cetp {
+    grid-area: cetp;
+}
+.gridas {
+    display: grid;
+    grid-template-areas: 
+        "uno dos tres"
+        "runo rdos rtres";
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+}
+#uno {
+    grid-area: uno;
+}
+#dos {
+    grid-area: dos;
+}
+#tres {
+    grid-area: tres;
+}
+#runo {
+    grid-area: runo;
+}
+#rdos {
+    grid-area: rdos;
+}
+#rtres {
+    grid-area: rtres;
+}
