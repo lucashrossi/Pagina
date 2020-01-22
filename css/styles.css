@@ -10,7 +10,15 @@ h2 {
   h2.tamañoh2{
     font-size: 3vw;
     /* font-size:14px; */
-  }}
+  }
+  .tit {
+    font-size: 7vw;
+  }
+  .ir {
+    width: 200px !important;
+    height: auto !important;
+  }
+}
 
 .catt {
     width: 100px;
