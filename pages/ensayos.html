@@ -5,22 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body style="text-align: center">
-    <header>
-        <a href="/index.html">
+<!-- <body style="text-align: center"> -->
+    <!-- <header> -->
+        <!-- <a href="/index.html"> -->
             <!-- Home -->
-            <img class="ir" id="imagen" src="/static/Logo.png" alt="Logo de la empresa">
-        </a>
-    </header>
+            <!-- <img class="ir" id="imagen" src="/static/Logo.png" alt="Logo de la empresa"> -->
+        <!-- </a> -->
+    <!-- </header> -->
+<body>
+    <div class="container-fluid">
+        <div class="mdc-tab-bar" role="tablist" style="background-color: rgb(49, 28, 28);">
+            <div class="mdc-tab-scroller">
+              <div class="mdc-tab-scroller__scroll-area">
+                <div class="mdc-tab-scroller__scroll-content">
+                  <button onclick="window.location.href = '/index.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+                    <span class="mdc-tab__content" style="color:white;">
+                        Home
+                    </span>
+                    <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                        <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                    </span>
+                    <span class="mdc-tab__ripple"></span>
+                    </button>
+                  <!-- <a href="/productos.html"> -->
+                  <button onclick="window.location.href = '/pages/productos.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+                    <span class="mdc-tab__content" style="color:white;">
+                        Productos
+                    </span>
+                    <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                      <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                    </span>
+                    <span class="mdc-tab__ripple"></span>
+                  </button>
+                  <!-- </a> -->
+                  <!-- <a href="/ensayos.html"> -->
+                  <button onclick="window.location.href = '/pages/ensayos.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+                    <span class="mdc-tab__content" style="color:white;">
+                        Ensayos
+                    </span>
+                    <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                      <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                    </span>
+                    <span class="mdc-tab__ripple"></span>
+                  </button>
+                  <!-- </a> -->
+                  <!-- <a href="/contacto.html"> -->
+                  <!-- <button onclick="window.location.href = 'contacto.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+                    <span class="mdc-tab__content" style="color:white;">
+                       Contacto
+                    </span>
+                    <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                      <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                    </span>
+                    <span class="mdc-tab__ripple"></span>
+                  </button> -->
+                  <!-- </a> -->
+                </div>
+              </div>
+            </div>
+          </div>
     <!-- <section style="overflow: hidden;">
         <embed src="https://public.tableau.com/views/RET_2/Dashboard2?:showVizHome=no&:embed=true" style="max-width: 100%; height: 500px;">
     </section> -->
-    <div class="iframe-container">
+    <div class="iframe-container" style="margin-top: 20px;">
         <iframe src="https://public.tableau.com/views/RET_2/Dashboard2?:showVizHome=no&:embed=true" style="width: 100%; height: 100%;"></iframe>
     </div>
-</body style="text-align: center">
+<!-- </body style="text-align: center"> -->
+  <footer class="page-footer" style="padding-top: 0px; background-color: rgb(148, 148, 148);">
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> -->
+    <div class="footer-copyright">
+      <div class="container">
+      © 2020 Copyright
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
 </html>
 
 <style>

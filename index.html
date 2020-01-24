@@ -21,7 +21,7 @@
 
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid" style="background-image: url('/static/paralaxhome.jpg'); background-repeat: no-repeat;">
     <!-- <header class=" mdc-top-app-bar mdc-top-app-bar--fixed">
         <div class="mdc-top-app-bar__row">
             <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
@@ -33,17 +33,23 @@
             </section>
         </div>
     </header> -->
-    <div style="text-align: center" >
-      <img class="ir" src="/static/Logo.png" alt="Logo de la empresa">
-      <h1 class="tit" style="text-align: center; color: #5a0000;">Buck - El Apellido de la Semilla</h1>
-    </div>
-    <div class="mdc-tab-bar" role="tablist">
+    
+    <div class="mdc-tab-bar" role="tablist" style="background-color: rgb(49, 28, 28);">
         <div class="mdc-tab-scroller">
           <div class="mdc-tab-scroller__scroll-area">
             <div class="mdc-tab-scroller__scroll-content">
+              <button onclick="window.location.href = '/index.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+                <span class="mdc-tab__content" style="color:white;">
+                    Home
+                </span>
+                <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                  <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                </span>
+                <span class="mdc-tab__ripple"></span>
+              </button>
               <!-- <a href="/productos.html"> -->
               <button onclick="window.location.href = 'pages/productos.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
-                <span class="mdc-tab__content">
+                <span class="mdc-tab__content" style="color:white;">
                     Productos
                 </span>
                 <span class="mdc-tab-indicator mdc-tab-indicator--active">
@@ -54,7 +60,7 @@
               <!-- </a> -->
               <!-- <a href="/ensayos.html"> -->
               <button onclick="window.location.href = 'pages/ensayos.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
-                <span class="mdc-tab__content">
+                <span class="mdc-tab__content" style="color:white;">
                     Ensayos
                 </span>
                 <span class="mdc-tab-indicator mdc-tab-indicator--active">
@@ -64,19 +70,23 @@
               </button>
               <!-- </a> -->
               <!-- <a href="/contacto.html"> -->
-              <button onclick="window.location.href = 'pages/contacto.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
-                <span class="mdc-tab__content">
+              <!-- <button onclick="window.location.href = 'pages/contacto.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+                <span class="mdc-tab__content" style="color:white;">
                    Contacto
                 </span>
                 <span class="mdc-tab-indicator mdc-tab-indicator--active">
                   <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
                 </span>
                 <span class="mdc-tab__ripple"></span>
-              </button>
+              </button> -->
               <!-- </a> -->
             </div>
           </div>
         </div>
+      </div>
+      <div style="text-align: center" >
+        <img class="ir" src="/static/Logot.png" alt="Logo de la empresa">
+        <!-- <h1 class="tit" style="text-align: center; color: #5a0000;">Buck - El Apellido de la Semilla</h1> -->
       </div>
     <!-- <header class="gridbodya">
         <a href="index.html">
@@ -131,7 +141,7 @@
     </section>
     <!-- <footer class="tamaño">Footer 2019</footer> -->
     
-    <footer class="page-footer" style="padding-top: 0px;">
+    <footer class="page-footer" style="padding-top: 0px; background-color: rgb(148, 148, 148);">
         <!-- <div class="container">
           <div class="row">
             <div class="col l6 s12">
