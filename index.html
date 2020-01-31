@@ -21,7 +21,7 @@
 
 </head>
 <body>
-    <div class="container-fluid" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/paralaxhome.jpg'); background-repeat: no-repeat;">
+    <div class="container-fluid" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('/static/paralaxhome.jpg'); background-repeat: no-repeat;">
     <!-- <header class=" mdc-top-app-bar mdc-top-app-bar--fixed">
         <div class="mdc-top-app-bar__row">
             <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
@@ -34,22 +34,19 @@
         </div>
     </header> -->
     
-    <div class="mdc-tab-bar" role="tablist" style="background-color: rgb(49, 28, 28);">
+    <div class="mdc-tab-bar" role="tablist" style="background-color: rgb(150, 150, 150);">
         <div class="mdc-tab-scroller">
           <div class="mdc-tab-scroller__scroll-area">
             <div class="mdc-tab-scroller__scroll-content">
               <button onclick="window.location.href = '/index.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
-                <span class="mdc-tab__content" style="font-size: 1.6vw;color:white;">
-                    Home
-                </span>
+                <img class="ir" src="/static/Logot.png" alt="Logo de la empresa">
                 <span class="mdc-tab-indicator mdc-tab-indicator--active">
                   <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
                 </span>
                 <span class="mdc-tab__ripple"></span>
               </button>
-              <!-- <a href="/productos.html"> -->
               <button onclick="window.location.href = 'pages/productos.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
-                <span class="mdc-tab__content" style="font-size: 1.6vw;color:white;">
+                <span class="mdc-tab__content" style="font-size: 1vw;color:rgb(90, 70, 0);">
                     Productos
                 </span>
                 <span class="mdc-tab-indicator mdc-tab-indicator--active">
@@ -57,10 +54,8 @@
                 </span>
                 <span class="mdc-tab__ripple"></span>
               </button>
-              <!-- </a> -->
-              <!-- <a href="/ensayos.html"> -->
               <button onclick="window.location.href = 'pages/ensayos.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
-                <span class="mdc-tab__content" style="font-size: 1.6vw;color:white;">
+                <span class="mdc-tab__content" style="font-size: 1vw;color:rgb(90, 70, 0);">
                     Ensayos
                 </span>
                 <span class="mdc-tab-indicator mdc-tab-indicator--active">
@@ -68,65 +63,61 @@
                 </span>
                 <span class="mdc-tab__ripple"></span>
               </button>
-              <!-- </a> -->
-              <!-- <a href="/contacto.html"> -->
-              <!-- <button onclick="window.location.href = 'pages/contacto.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
-                <span class="mdc-tab__content" style="color:white;">
-                   Contacto
-                </span>
-                <span class="mdc-tab-indicator mdc-tab-indicator--active">
-                  <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
-                </span>
-                <span class="mdc-tab__ripple"></span>
-              </button> -->
-              <!-- </a> -->
             </div>
           </div>
         </div>
       </div>
-      <div style="text-align: center" >
-        <img class="ir" src="/static/Logot.png" alt="Logo de la empresa">
-        <!-- <h1 class="tit" style="text-align: center; color: #5a0000;">Buck - El Apellido de la Semilla</h1> -->
-      </div>
-    <!-- <header class="gridbodya">
-        <a href="index.html">
-            <img src="Logo.png" alt="Logo de la empresa">
-        </a>
-        <nav>
-            <a href="productos.html">Productos</a>
-            <a href="/">Empresa</a>
-            <a href="/">Semilleros</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-    </header> -->
+
     <section class="gridsec">
-      <h1 style="color:rgb(179, 87, 87);font-family: 'Times New Roman'; font-size: 2.5vw; text-align: center;">
+      <h1 style="color:rgb(44, 0, 0);font-family: 'Times New Roman'; font-size: 2.5vw; text-align: center;">
         Campaña Trigo&nbsp;
-        <span class="fsss" style="color:rgb(177, 174, 19); font-size: 3vw;">2019-2020</span>
+        <span class="fsss" style="color:rgb(134, 76, 0); font-size: 3vw;">2019-2020</span>
         &nbsp;Buck Semillas
       </h1>
         <article class="grid">
             <div id="div1">
-                <h2 class="tamañoh2">
-                    La campaña de Trigo 2018 fue la de mayor volumen de producción de nuestro país. Los resultados obtenidos en la RET y otros ensayos, además de la información de productores, nos permiten destacar el comportamiento de nuestras variedades BUCK DESTELLO, BUCK METEORO, BUCK SAETA, BUCK® SY120, BUCK® SY211 y BUCK® SY330.
+                <h2 class="tamañoh2fn">
+                  <br>
+                    Excelente comportamiento!
+                </h2>
+                <h2 class="tamañoh2f">
+                  BUCK DESTELLO
+                </h2>
+                <h2 class="tamañoh2f">
+                  BUCK METEORO
+                </h2>
+                <h2 class="tamañoh2f">
+                 BUCK SAETA
                 </h2>
             </div>
             <a id="Catalogo" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Catalogo%20Buck%202019.pdf?alt=media&token=d6769b58-3fb3-4e41-8b8b-69a1104f534c">
               <img class="catt" src="/static/Cat.jpg" alt="Catalogo">
             </a>
             <div id="div2">
-              <h2 class="tamañoh2">
-                Respecto a los Trigos Candeales vale destacar el nuevo cultivar BUCK PERLA, de ciclo corto y muy alto potencial de rendimiento, que se suma a los ya conocidos BUCK ZAFIRO y BUCK ESMERALDA, de excelente comportamiento agronómico y con una calidad industrial acorde a las necesidades de la industria fideera nacional.
+              <h2 class="tamañoh2fn">
+                <br>
+                  Nuevas Variedades!
+              </h2>
+              <h2 class="tamañoh2f">
+                BUCK PERLA
+              </h2>
+              <h2 class="tamañoh2f">
+                BUCK ZAFIRO
+              </h2>
+              <h2 class="tamañoh2f">
+                BUCK ESMERALDA
               </h2>
               </div>
         </article>
     </section>
+    <a href="mailto:bucksem@bucksemillas.com.ar" style="text-decoration: none;">
+      <h2 style="text-decoration: underline;font-family: 'Times New Roman'; font-size: 2vw; text-align: center; color:rgb(136, 33, 33);" class="tat">
+        Consulte Beneficios Pre-Campaña
+      </h2>
+    </a>
     
-    <h2 style="font-family: 'Times New Roman'; font-size: 2vw; text-align: center; color:rgb(141, 85, 85);" class="tat">
-        Consulte Beneficios Pre-Campaña!
-    </h2>
     <!-- <footer class="tamaño">Footer 2019</footer> -->
-    <video style="width: 100%; height: auto; margin-top: 7%; margin-bottom: -0.3%; border-top: 2px solid rgb(0, 68, 0);" loop autoplay muted>
+    <video style="width: 100%; height: auto; margin-top: 5%; margin-bottom: -0.3%; border-top: 2px solid rgb(0, 68, 0);" loop autoplay muted>
       <source src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/demodron2.mp4?alt=media&token=55303050-d1df-46b8-98a9-171fd7dbe4c9">
     </video>
     <footer class="page-footer" style="padding-top: 0px; background-color: rgb(148, 148, 148);">

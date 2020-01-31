@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <div class="container-fluid" style="background-image: url('/static/trigo.jpg'); background-repeat: no-repeat;">
+<div class="container-fluid" style="background-size: cover; background-image: url('/static/trigo.jpg'); background-repeat: no-repeat;">
     <!-- <header class=" mdc-top-app-bar mdc-top-app-bar--fixed">
         <div class="mdc-top-app-bar__row">
             <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
@@ -28,56 +28,40 @@
         </div>
     </header> -->
     
-    <div class="mdc-tab-bar" role="tablist" style="background-color: rgb(49, 28, 28);">
-        <div class="mdc-tab-scroller">
-          <div class="mdc-tab-scroller__scroll-area">
-            <div class="mdc-tab-scroller__scroll-content">
-              <button onclick="window.location.href = '/index.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
-                <span class="mdc-tab__content" style="color:white;">
-                    Home
-                </span>
-                <span class="mdc-tab-indicator mdc-tab-indicator--active">
-                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
-                </span>
-                <span class="mdc-tab__ripple"></span>
-                </button>
-              <!-- <a href="/productos.html"> -->
-              <button onclick="window.location.href = '/pages/productos.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
-                <span class="mdc-tab__content" style="color:white;">
-                    Productos
-                </span>
-                <span class="mdc-tab-indicator mdc-tab-indicator--active">
-                  <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
-                </span>
-                <span class="mdc-tab__ripple"></span>
-              </button>
-              <!-- </a> -->
-              <!-- <a href="/ensayos.html"> -->
-              <button onclick="window.location.href = '/pages/ensayos.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
-                <span class="mdc-tab__content" style="color:white;">
-                    Ensayos
-                </span>
-                <span class="mdc-tab-indicator mdc-tab-indicator--active">
-                  <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
-                </span>
-                <span class="mdc-tab__ripple"></span>
-              </button>
-              <!-- </a> -->
-              <!-- <a href="/contacto.html"> -->
-              <!-- <button onclick="window.location.href = 'contacto.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
-                <span class="mdc-tab__content" style="color:white;">
-                   Contacto
-                </span>
-                <span class="mdc-tab-indicator mdc-tab-indicator--active">
-                  <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
-                </span>
-                <span class="mdc-tab__ripple"></span>
-              </button> -->
-              <!-- </a> -->
-            </div>
+    <div class="mdc-tab-bar" role="tablist" style="background-color: rgb(150, 150, 150);">
+      <div class="mdc-tab-scroller">
+        <div class="mdc-tab-scroller__scroll-area">
+          <div class="mdc-tab-scroller__scroll-content">
+            <button onclick="window.location.href = '/index.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+              <img class="ir" src="/static/Logot.png" alt="Logo de la empresa">
+              <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+              </span>
+              <span class="mdc-tab__ripple"></span>
+            </button>
+            <button onclick="window.location.href = 'productos.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+              <span class="mdc-tab__content" style="font-size: 1vw;color:rgb(90, 70, 0);">
+                  Productos
+              </span>
+              <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+              </span>
+              <span class="mdc-tab__ripple"></span>
+            </button>
+            <button onclick="window.location.href = 'ensayos.html';" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+              <span class="mdc-tab__content" style="font-size: 1vw;color:rgb(90, 70, 0);">
+                  Ensayos
+              </span>
+              <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+              </span>
+              <span class="mdc-tab__ripple"></span>
+            </button>
           </div>
         </div>
       </div>
+    </div>
+
       <!-- <div style="text-align: center" > -->
         <!-- <img class="ir" src="/static/Logot.png" alt="Logo de la empresa"> -->
         <!-- <h1 class="tit" style="text-align: center; color: #5a0000;">Buck - El Apellido de la Semilla</h1> -->
@@ -93,80 +77,165 @@
             <a href="contacto.html">Contacto</a>
         </nav>
     </header> -->
-    <article>Este año ofrecemos once variedades de Trigo Pan, entre las que destacamos el lanzamiento de dos nuevas variedades de ciclo largo y alto potencial de rendimiento: BUCK RESPLANDOR de Grupo 1 de Calidad y BUCK CUMELÉN de Grupo 2 de Calidad. En trigo Candeal vale destacar el nuevo cultivar BUCK PERLA, de ciclo corto.
-        Además este año ofrecemos, la nueva variedad de avena BONAERENSE INTA YAPA.</article>
-    <section class="gridsec">
-        <div id ="not" class="gridas">
-            <a id ="uno" href="/pages/producto1.html"><button class="button3 mdc-button mdc-button--raised">Resplandor</button></a>
-            <!-- <p id="runo">
-                <label>
-                <input type="checkbox" class="filled-in" />
-                <span>Comprar</span>
-                </label>
-            </p> -->
-            <a id ="dos" href="/pages/producto2.html"><button class="button3 mdc-button mdc-button--raised">SY 120</button></a>
-            <!-- <p id="rdos">
-                <label>
-                <input type="checkbox" class="filled-in" />
-                <span>Comprar</span>
-                </label>
-            </p> -->
-            <a id ="tres" href="/pages/producto3.html"><button class="button3 mdc-button mdc-button--raised">Buck Saeta</button></a>
-            <!-- <p id="rtres">
-                <label>
-                <input type="checkbox" class="filled-in" />
-                <span>Comprar</span>
-                </label>
-            </p> -->
-        </div>
-        <!-- <article class="grid">
-            <div id="div1">
-                <h2 class="tamañoh2">
-                    La campaña de Trigo 2018 fue la de mayor volumen de producción de nuestro país. Los resultados obtenidos en la RET y otros ensayos, además de la información de productores, nos permiten destacar el comportamiento de nuestras variedades BUCK DESTELLO, BUCK METEORO, BUCK SAETA, BUCK® SY120, BUCK® SY211 y BUCK® SY330.
-                </h2>
+    <div class="gridprod" >
+    <article id="articlep" style="text-align:center;font-size: 30px; padding: 3%; color: rgb(255, 255, 255);">Este año ofrecemos una amplia cantidad de variedades:
+    </article>
+    <section id="sectionp" style="padding:2%">
+        <div id ="not" class="gridas" style="padding:2%">
+
+            <div id ="uno">
+                
+                <div class="row">
+                  <div class="col s12 m6" style="margin-left: 25%">
+                    <div class="card blue-grey darken-1">
+                      <div class="card-content white-text">
+                        <span class="card-title">Card Title</span>
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
             </div>
-            <a id="Catalogo" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Catalogo%20Buck%202019.pdf?alt=media&token=d6769b58-3fb3-4e41-8b8b-69a1104f534c">
-              <img class="catt" src="/static/Cat.jpg" alt="Catalogo">
-            </a>
-            <div id="div2">
-              <h2 class="tamañoh2">
-                Respecto a los Trigos Candeales vale destacar el nuevo cultivar BUCK PERLA, de ciclo corto y muy alto potencial de rendimiento, que se suma a los ya conocidos BUCK ZAFIRO y BUCK ESMERALDA, de excelente comportamiento agronómico y con una calidad industrial acorde a las necesidades de la industria fideera nacional.
-              </h2>
+
+            <div id ="dos">
+                
+                <div class="row">
+                  <div class="col s12 m6" style="margin-left: 25%">
+                    <div class="card blue-grey darken-1">
+                      <div class="card-content white-text">
+                        <span class="card-title">Card Title</span>
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+
+            <div id ="tres">
+                
+                <div class="row">
+                  <div class="col s12 m6" style="margin-left: 25%">
+                    <div class="card blue-grey darken-1">
+                      <div class="card-content white-text">
+                        <span class="card-title">Card Title</span>
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div id ="runo">
+                
+              <div class="row">
+                <div class="col s12 m6" style="margin-left: 25%">
+                  <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                      <span class="card-title">Card Title</span>
+                      <p>I am a very simple card. I am good at containing small bits of information.
+                      I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-        </article> -->
-    </section>
-    <!-- <footer class="tamaño">Footer 2019</footer> -->
-    
-    <footer class="page-footer" style="padding-top: 0px; background-color: rgb(148, 148, 148);">
-        <!-- <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <h5 class="white-text">Footer Content</h5>
-              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">Links</h5>
-              <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-              </ul>
-            </div>
+
           </div>
-        </div> -->
+
+          <div id ="rdos">
+              
+              <div class="row">
+                <div class="col s12 m6" style="margin-left: 25%">
+                  <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                      <span class="card-title">Card Title</span>
+                      <p>I am a very simple card. I am good at containing small bits of information.
+                      I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+
+          <div id ="rtres">
+              
+              <div class="row">
+                <div class="col s12 m6" style="margin-left: 25%">
+                  <div class="card blue-grey darken-1">
+                    <div class="card-content white-text">
+                      <span class="card-title">Card Title</span>
+                      <p>I am a very simple card. I am good at containing small bits of information.
+                      I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <div id ="rruno">
+                
+            <div class="row">
+              <div class="col s12 m6" style="margin-left: 25%">
+                <div class="card blue-grey darken-1">
+                  <div class="card-content white-text">
+                    <span class="card-title">Card Title</span>
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+        <div id ="rrdos">
+            
+            <div class="row">
+              <div class="col s12 m6" style="margin-left: 25%">
+                <div class="card blue-grey darken-1">
+                  <div class="card-content white-text">
+                    <span class="card-title">Card Title</span>
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+        <div id ="rrtres">
+            
+            <div class="row">
+              <div class="col s12 m6" style="margin-left: 25%">
+                <div class="card blue-grey darken-1">
+                  <div class="card-content white-text">
+                    <span class="card-title">Card Title</span>
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        </div>  
+    </section>
+    
+      <footer id="footerp" class="page-footer" style="padding-top: 0px; background-color: rgb(148, 148, 148);">
         <div class="footer-copyright">
           <div class="container">
           © 2020 Copyright
           </div>
         </div>
       </footer>
-          
-
-    <!-- <script src="js/bootstrap.js"></script>
-    <script src="js/jquery.slim.js"></script>
-    <script src="js/popper.min.js"></script> -->
     </div>
+</div>
 </body>
 
 </html>

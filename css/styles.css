@@ -6,6 +6,24 @@ h2 {
     font-size: 1vw;
     font-family: 'Arial';
    }
+   h2.tamañoh2f {
+    font-size: 1.5vw;
+    font-family: 'Arial';
+    background-color: #646464a9;
+    text-align: center;
+   }
+   h2.tamañoh2fn {
+    font-size: 1.5vw;
+    font-family: 'Arial';
+    color: rgb(255, 0, 0);
+    /* background-color: #3b3838a9; */
+    text-align: center;
+   }
+.ir {
+    width: 200px !important;
+    height: auto !important;
+    text-align: left !important;
+}
 @media screen and (max-width: 480px) {
   h2.tamañoh2{
     font-size: 3vw;
@@ -21,7 +39,7 @@ h2 {
 }
 
 .catt {
-    width: 100px;
+    width: 150px;
 }
 
 .grid {
@@ -109,14 +127,17 @@ nav {
     display: grid;
     grid-template-areas: 
         "uno dos tres"
-        "runo rdos rtres";
+        "runo rdos rtres"
+        "rruno rrdos rrtres";
     justify-content: space-around;
     align-items: center;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
+    grid-template-rows: auto auto auto;
 }
 #uno {
     grid-area: uno;
+    /* align-items: center !important;
+    justify-content: space-around !important; */
 }
 #dos {
     grid-area: dos;
@@ -133,9 +154,18 @@ nav {
 #rtres {
     grid-area: rtres;
 }
+#rruno {
+    grid-area: rruno;
+}
+#rrdos {
+    grid-area: rrdos;
+}
+#rrtres {
+    grid-area: rrtres;
+}
 .tat {
     transition: all 0.8s;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-name: ef;
   
@@ -145,10 +175,30 @@ nav {
     transition: all 0.2s;
     letter-spacing: 5px;
 }
+.gridprod {
+    display: grid;
+    grid-template-areas: 
+        "articlep"
+        "sectionp"
+        "footerp";
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+#articlep {
+    grid-area: articlep;
+}
+#sectionp {
+    grid-area: sectionp;
+}
+#footerp {
+    grid-area: footerp;
+}
 
 @keyframes ef {
     0%{ transform: scale(1,1); }
-    10%{ transform: scale(1.3,1.1); }
+    10%{ transform: scale(1.01,1.1); }
     /* 30%{ transform: scale(1.2,1.3); } */
     100%{ transform: scale(1,1); }
  }
